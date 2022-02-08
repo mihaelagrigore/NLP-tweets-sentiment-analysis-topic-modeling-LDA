@@ -18,16 +18,17 @@ Here, though, I focus on topic modeling. I used Latent Dirichlet Allocation (LDA
 
 ## Stage 1: Coherence Model
 ```
-models.coherencemodel from gensim library
+models.coherencemodel
 ```
-from the gensim library
+from the <a href='https://radimrehurek.com/gensim/intro.html'>gensim</a> library
 
 "Calculates topic coherence for topic models. This is the implementation of the four stage topic coherence pipeline from the paper <a href='http://svn.aksw.org/papers/2015/WSDM_Topic_Evaluation/public.pdf'>Michael Roeder, Andreas Both and Alexander Hinneburg: 'Exploring the space of topic coherence measures'</a>"
 
 ## Stage 2: Latent Dirichlet Allocation (LDA)
 ```
-models.LdaModel from gensim 
+models.LdaModel
 ```
+from <a href='https://radimrehurek.com/gensim/intro.html'>gensim</a>
 
 Latent Dirichlet Allocation (LDA) automatically discovers the semantic structure of texts by examining statistical co-occurrence patterns within a corpus of training documents (the tweets). These algorithms are unsupervised, which means no human input is necessary – you only need a corpus of plain text documents.
 
